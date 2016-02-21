@@ -160,6 +160,7 @@ namespace winhwd
         [DllImport("user32.dll")]
         [return: MarshalAs(UnmanagedType.Bool)]
         private extern static bool EnumWindows(EnumWindowsDelegate lpEnumFunc, IntPtr lparam);
+        
     }
 
     public class Window
